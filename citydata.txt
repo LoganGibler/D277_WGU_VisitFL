@@ -1,0 +1,57 @@
+Tallahassee
+
+Population: 200,000
+City Founded: 1821
+Region of State: Central part of Florida's Panhandle Region
+City Classification: urban/suburban
+average income compared to state: 22% Less then state average, the average household income $52,899
+
+Orlando
+
+Population: 316,000
+City Founded: 1885
+Region of State: Central Florida
+City Classification: urban/suburban
+average income compared to state: 49% higher then state average, the average household income $96,619.
+
+St. Augustine
+
+Population: 15,000
+City Founded: 1565
+Region of State: First Coast Region
+City Classification: suburban
+average income compared to state: 54% higher then the rest of the state, the average household income is $99,696
+
+each page must contain:
+    title in the <head> of each document
+    relevant image with alt text thats descriptive
+    a consistant navigation that allows users to view other pages
+    <nav>
+    <header>
+    <section>
+    <aside>
+
+somewhere in the website must contain:
+    a link that opens to an external website in a new window or tab using target attribute
+    ordered list with at least 3 items
+    unordered list with at least 3 items
+    table consisting of 3-6 rows, 3-6 columns
+
+    a form that must:
+        have text fields for users first name, users last name, and users email address
+        as well as confirmation field for the email address
+        textbox for user questions
+        all fields must contain placeholders
+        some javascript to check both emails actually match
+
+css must contain:
+    font-family declaration
+    :hover somewhere
+    float property to position an element. verify the float property is actually working
+    absolute and relative element
+    one element selector
+    one ID selector
+    one class selector used twice   
+
+
+
