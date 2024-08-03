@@ -32,26 +32,26 @@ each page must contain:
     <aside>
 
 somewhere in the website must contain:
-    a link that opens to an external website in a new window or tab using target attribute
+    a link that opens to an external website in a new window or tab using target attribute   DONE
     ordered list with at least 3 items
     unordered list with at least 3 items
     table consisting of 3-6 rows, 3-6 columns
 
     a form that must:
-        have text fields for users first name, users last name, and users email address
+        have text fields for users first name, users last name, and users email address          FORM DONE
         as well as confirmation field for the email address
         textbox for user questions
         all fields must contain placeholders
         some javascript to check both emails actually match
 
 css must contain:
-    font-family declaration
-    :hover somewhere
-    float property to position an element. verify the float property is actually working
-    absolute and relative element
-    one element selector
-    one ID selector
-    one class selector used twice   
+    font-family declaration    DONE
+    :hover somewhere   DONE
+    float property to position an element. verify the float property is actually working  DONE
+    absolute and relative element  DONE
+    one element selector DONE
+    one ID selector      DONE
+    one class selector used twice  DONE
 
 
 

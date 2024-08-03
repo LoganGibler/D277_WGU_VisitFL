@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VisitFL</title>
-    <link href="main.css" rel="stylesheet"></link>
+    <title>Visit Florida</title>
+    <link href="main.css" rel="stylesheet">
+    </link>
 </head>
+
 <body>
     <header class="fl_header">
         <img class="fl_header_img" src="imgs/flheader2.png" alt="Scenic photo of a Florida beach."></img>
@@ -20,33 +23,53 @@
     </header>
     <nav class="fl_nav">
         <!-- <a>Home</a> -->
-        <a>Orlando</a>
-        <a>St. Augustine</a>
-        <a>Tallahassee</a>
+        <a href="orlando.html">Orlando</a>
+        <a href="staug.html">St. Augustine</a>
+        <a href="tally.html">Tallahassee</a>
     </nav>
     <section class="fl_section">
         <div id="fl_section_text1">
             <h1>Welcome to Florida</h1>
-            <p>Known as the "Sunshine State," Florida is a top destination for travelers from around the world. With its beautiful
-            beaches, diverse wildlife, vibrant cities, and rich cultural heritage, Florida offers something for everyone. Whether
-            you're seeking relaxation or adventure, you'll find it here.</p>
+            <p>Known as the "Sunshine State," Florida is a top destination for travelers from around the world. With its
+                beautiful
+                beaches, diverse wildlife, vibrant cities, and rich cultural heritage, Florida offers something for
+                everyone. Whether
+                you're seeking relaxation or adventure, you'll find it here.</p>
         </div>
         <div id="fl_section_text2">
             <h1>Why Visit Florida?</h1>
-            <p>Florida boasts some of the most stunning beaches in the world, with white sandy shores and crystal-clear waters. Popular
-            destinations include Miami Beach, Clearwater Beach, and the Florida Keys.</p>
+            <p>Florida boasts some of the most stunning beaches in the world, with white sandy shores and crystal-clear
+                waters. Popular
+                destinations include Miami Beach, Clearwater Beach, and the Florida Keys.</p>
             <p class="fl_section_b_text">
-                Home to world-renowned theme parks such as Walt Disney World, Universal Studios, and SeaWorld, Florida is a paradise for
+                Home to world-renowned theme parks such as Walt Disney World, Universal Studios, and SeaWorld, Florida
+                is a paradise for
                 families and thrill-seekers alike.
             </p>
         </div>
+        <form class="input_form" onsubmit="return checkEmails()">
+            <h1>Contact Us</h1>
+            <label class="fullname">Fullname</label>
+            <div>
+                <input class="" placeholder="Firstname" type="text"></input>
+                <input class="" placeholder="Lastname" type="text"></input>
+            </div>
+            <label class="label1">Email</label>
+            <input id="input1" class="input1" placeholder="Enter email" type="email"></input>
+            <label class="label2">Confirm email</label>
+            <input id="input2" class="input2" placeholder="Confirm email" type="email"></input>
+            <textarea placeholder="Questions or inquiries? Let us know here."></textarea>
+            <button type="submit"><strong>Submit</strong></button>
+            <script src="functionality.js"></script>
+        </form>
     </section>
     <aside class="fl_aside">
-        <p>Visit our social media for any upcoming updates.</p>
+        <strong>Visit our social media for any upcoming updates about Florida events.</strong>
         <div class="">
-            <a href="www.facebook.com">Facebook</a>
-            <a href="www.instagram.com">Instagram</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
         </div>
     </aside>
 </body>
+
 </html>
